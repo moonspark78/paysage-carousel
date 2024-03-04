@@ -6,16 +6,20 @@ export const Carousel = ({data}) => {
     const [slide, setSlide] = useState(0)
     console.log(data);
 
-    
-    const prevSlide = () =>{};
+
+    const prevSlide = () =>{
+        setSlide(slide === 0 ? data.length - 1 : slide - 1)
+    };
 
 
-    const nextSlide = () =>{};
+    const nextSlide = () =>{
+        setSlide(slide === data.length -1 ? 0 : slide + 1)
+    };
 
   return (
 
     <div className='carousel'>
-        <ImArrowLeft className='arrow arrow-left'/>
+        <ImArrowLeft className='arrow arrow-left' onClick={prevSlide}/>
             {
                 data.map((item,idx) => {
                     return (
@@ -28,7 +32,7 @@ export const Carousel = ({data}) => {
                     )
                 })
             }
-        <ImArrowRight className='arrow arrow-right'/>
+        <ImArrowRight className='arrow arrow-right' onClick={nextSlide}/>
         <span className='indicators'>
             {
                 data.map((_,idx) =>{
