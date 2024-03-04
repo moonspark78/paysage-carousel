@@ -1,36 +1,36 @@
 {
     "slides": [
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage1.png",
+            "alt": "Image Paysage"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage2.png",
+            "alt": "Image Paysage"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage3.png",
+            "alt": "Image Paysage"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage4.png",
+            "alt": "Image Paysage"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage5.png",
+            "alt": "Image Paysage"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage6.png",
+            "alt": "Image Paysage"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage7.png",
+            "alt": "Image Paysage"
         },
         {
-            "src": "",
-            "alt": ""
+            "src": "/images/paysage8.png",
+            "alt": "Image Paysage"
         }
     ]
 }
