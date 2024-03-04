@@ -1,4 +1,5 @@
 .carousel{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +15,49 @@
 
 
 .slide{
-
+    height: 100%;
+    width: 100%;
 }
 
 .slide-hiden{
     display: none;
+}
+
+.arrow{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.arrow-left{
+    left: 13px;
+}
+
+
+.arrow-right{
+    right: 13px;
+}
+
+.indicators{
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+}
+
+.indicator{
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 4px;
+}
+
+
+.indicator-inactive{
+    background-color: gray;
 }
